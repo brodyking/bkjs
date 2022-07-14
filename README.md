@@ -49,5 +49,5 @@ I used
  - NAMECHEAP SHARED HOSTING
 
 ## Copyright and license
-
+You can NOT copy, modify, redistribute, or use this software in any commercial enviroment. This software is the property of Brody King and stealing will not be tolerated!1!!!1!!1!
 

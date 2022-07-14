@@ -28,6 +28,6 @@ RewriteRule ^post/website-revamp page.php?p=blog/website-revamp [NC,L]
 RewriteRule ^post/goodbye-static page.php?p=blog/goodbye-static [NC,L]
 
 # Directory listing hiding and Error 404 Document.
-ErrorDocument 404 /404
+ErrorDocument 404 /page.php?p=404
 #Options -Indexes
 

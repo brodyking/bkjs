@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" /> 
         <?php 
             if (!isset($_GET['p'])) {
-                $_GET['p'] = 'Homepage';
+                $_GET['p'] = 'homepage';
             }
 
             if (!file_exists('pages/' . $_GET['p'] . '.html')) {

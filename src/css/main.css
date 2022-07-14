@@ -307,3 +307,9 @@ pre {
         grid-template-columns: 100%;
     }
 }
+
+.blogpost img {
+    border: 1px solid #343a40;
+    width: 100%;
+    display: block;
+}

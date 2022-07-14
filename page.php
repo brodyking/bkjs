@@ -23,7 +23,7 @@
             echo file_get_contents('pages/' . $_GET['p'] . '.html');
             
             // Removes borders and makes cool gradient for homepage
-            if ($_GET['p'] == "Homepage") {
+            if ($_GET['p'] == "homepage") {
                 echo '<style>.nav { border-bottom: 0px solid #343a40; }body {
                     background-image: linear-gradient(180deg, #181d2c 10%, #182235 50%);
                     background-repeat: no-repeat;

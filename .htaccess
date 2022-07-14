@@ -10,10 +10,10 @@ DirectoryIndex page.php
 RewriteRule ^404 page.php?p=404 [NC,L]
 
 # Normal Page URL's
-RewriteRule ^blog page.php?p=Blog [NC,L]
-RewriteRule ^projects page.php?p=Projects [NC,L]
-RewriteRule ^deprecated page.php?p=Deprecated [NC,L]
-RewriteRule ^sitemap page.php?p=Sitemap [NC,L]
+RewriteRule ^blog page.php?p=blog [NC,L]
+RewriteRule ^projects page.php?p=projects [NC,L]
+RewriteRule ^deprecated page.php?p=deprecated [NC,L]
+RewriteRule ^sitemap page.php?p=sitemap [NC,L]
 
 
 # Blog Post URL's
@@ -29,4 +29,5 @@ RewriteRule ^post/goodbye-static page.php?p=blog/goodbye-static [NC,L]
 
 # Directory listing hiding and Error 404 Document.
 ErrorDocument 404 /404
-Options -Indexes
+#Options -Indexes
+

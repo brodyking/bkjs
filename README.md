@@ -8,76 +8,46 @@
   <p align="center">
     My personal website where I host a blog and links to my projects
     <br>
-    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
-    ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
+     <a href="https://bkjs.us"><strong>Take a look at my website »</strong></a>
   </p>
 </p>
+
+## About the Project
+This is my personal website that I host over at <a href="https://bkjs.us">bkjs.us</a>. I am only having it as a public repository on github because I saw other people doing it and thought I might aswell. It also makes version control easier.
+
+<img src="https://github.com/brodyking/bkjs/blob/main/src/img/example.gif?raw=true" style="width: 100%;">
 
 
 ## Table of contents
 
-- [Quick start](#quick-start)
-- [Status](#status)
 - [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Contributing](#contributing)
-- [Creators](#creators)
-- [Thanks](#thanks)
+- [Tools Used](#tools-used)
 - [Copyright and license](#copyright-and-license)
 
 
-## Quick start
-
-Some text
-
-- Instruction 1
-- Instruction 2
-- Instruction 3
-
-## Status
-
-Here goes all the budgets
-
 ## What's included
 
-Some text
-
 ```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
+root/
+├── .htaccess
+├── page.php
+├── README.md
+├── src/
+│   ├── css/
+│   ├── fonts/
+│   ├── img/
+│   ├── js/
+│   └── php/
+└── pages/
+    └── blog/ 
 ```
 
-## Bugs and feature requests
-
-Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
-
-## Contributing
-
-Please read through our [contributing guidelines](https://reponame/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
-
-Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
-
-## Creators
-
-**Creator 1**
-
-- <https://github.com/usernamecreator1>
-
-## Thanks
-
-Some Text
+## Tools Used
+I used
+ - HTML5,CSS
+ - PHP
+ - NAMECHEAP SHARED HOSTING
 
 ## Copyright and license
 
-Code and documentation copyright 2011-2018 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
 
-Enjoy :metal:

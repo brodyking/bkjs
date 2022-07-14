@@ -1,0 +1,32 @@
+RewriteEngine On
+
+#RewriteRule ^([0-9a-zA-Z]+) index.php?page=$1 [NC,L]
+
+DirectoryIndex page.php
+
+
+# 404 Page and other 404'd pages!
+RewriteRule ^404 page.php?p=404 [NC,L]
+RewriteRule ^pages page.php?p=404 [NC,L]
+
+# Pages
+RewriteRule ^blog page.php?p=Blog [NC,L]
+RewriteRule ^projects page.php?p=Projects [NC,L]
+RewriteRule ^deprecated page.php?p=Deprecated [NC,L]
+RewriteRule ^sitemap page.php?p=Sitemap [NC,L]
+
+
+# Blog Posts
+RewriteRule ^post/multiplayer-games page.php?p=blog/multiplayer-games [NC,L]
+RewriteRule ^post/color-changes page.php?p=blog/color-changes [NC,L]
+RewriteRule ^post/remaking-bkjs page.php?p=blog/remaking-bkjs [NC,L]
+RewriteRule ^post/newtab-search page.php?p=blog/newtab-search [NC,L]
+RewriteRule ^post/pages-intro page.php?p=blog/pages-intro [NC,L]
+RewriteRule ^post/archive-removal page.php?p=blog/archive-removal [NC,L]
+RewriteRule ^post/archive-update page.php?p=blog/archive-update [NC,L]
+RewriteRule ^post/website-revamp page.php?p=blog/website-revamp [NC,L]
+RewriteRule ^post/goodbye-static page.php?p=blog/goodbye-static [NC,L]
+
+
+ErrorDocument 404 /404
+Options -Indexes

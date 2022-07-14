@@ -1,0 +1,42 @@
+<div class="blogpost">
+<h1>Multiplayer Games</h1>
+<small>Posted June 11, 2022 by <a href="#">brody</a></small>
+<p>For a long time, I have wanted to create a Multiplayer game. All of my past games that I made for pyronode have been singleplayer only. This made the games less fun and made people click off of them faster. I refuesed to make Multiplayer games because the documentation for it was confusing and I did not wanna put in the effort. Recently though, I tried again. Here is my experience creating a multiplayer game.</p>
+
+<h2>Reading Documentation</h2>
+
+<p>I know nothing about multiplayer games and how they work behind the scenes. The first thing I did was lookup youtube tutorials, which there were none for.
+The seconed thing I did was to go onto the <a href="https://construct.net">Costruct</a> website. This led me to a page about how to setup the plugin and tutorials for using the plugin.
+The only issue was that alot of the links were borken.</p>
+
+<p>Construct used to be hosted at <a href="https://scirra.com">scirra.com</a>.
+Recently, they <a href="https://www.construct.net/en/blogs/construct-official-blog-1/goodbye-scirra-com-1566">moved all the content</a> to <a href="https://construct.net">construct.net</a>.
+I would not care at all if all links using that old domain would redirect to the new links. But no. If I went to a specific page that was on the old site, it would just redirect me to the homepage of the new one.
+Alot of the time I spent learning about multiplayer, I was in the forums. And alot of the time, they would link differnet pages on the site. And ALL OF THEM WERE BROKEN!
+This is a clear oversight by the Construct Team and is another reason I should just learn a real engine...</p>
+
+<p>I read about 3 of the tutorials before starting on my own trying to create a game. It was really hard but here is what I figured out.</p>
+
+<h2>My Game</h2>
+
+<p>
+    Here is how the game would work. When you started the game, everyone was asked for a username and a game room. When they connected, the first person that joined would become the host.
+    There are no external servers for hosting the game. The only time you call another server, it to connect to the signalling server.
+    This is so that you can join other people without having to type in individual IP addresses. When you joined the game, you can select 3 different color options.
+    Once one was picked by someone else, nobody can pick it. No one can move until the host starts the game.
+  </p>
+  <p>
+    Once the host starts the game, everyone can move. Each time a key is pressed, it sends the server a movment message. When the host recieves it, the host will relay it to everyone again, moving the player.
+    This makes the game take about 200ms of delay for basic movment. This is bad practice but I dont gaf because no one is playing my game anyways.
+    When I tested it, it wasnt laggy at all. But the only reason it was like that was because it was on my local network. 
+  </p>
+  <h2>So what was this all for?</h2>
+  <p>
+    Well initally I was going to make a new game. But today I woke up and checked on the game and the file was not there.
+    Then I realized I forgot to save the game. So yeah, like 3 days of work is gone. Thats okay though because I was loosing interest in the project either way.
+    Maybe later on in life I will restart and make a good game that is also multiplayer. But for now, I'm done learning about it.
+  </p>
+  <p>
+    Anyways, that is all for now. See you in 2 months when I make some stupid change to the site.
+  </p>
+</div>
